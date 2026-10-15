@@ -1,23 +1,20 @@
-provider "aws" {
-    region = "us-west-2"
-}
 
 resource "aws_s3_bucket" "my_bucket" {
-    bucket = "bhallademo1234567"
+    bucket = var.bucket_name
     tags = {
-        Name = "my_bucket"
+        Name = var.environment
     }
 }
 
 resource "aws_s3_bucket" "mybucket_2" {
-    bucket = "jatindemo12345"
+    bucket = var.bucket_name_2
     tags = {
-        Name = "mybucket_2"
+        Name = var.environment
     }
 }
 
 
 resource "aws_instance" "my_instance" {
     ami           = "ami-02167eae61967e403"
-    instance_type = "t2.micro"
+    instance_type = var.instance_type
 }
