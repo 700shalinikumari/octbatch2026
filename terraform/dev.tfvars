@@ -3,4 +3,4 @@ bucket_name = "bhalladev"
 environment = "devforlearning"
 instance_type = "t2.micro"
 
-bucket_count = 2
+bucket_count = 1

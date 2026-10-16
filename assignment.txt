@@ -14,3 +14,12 @@ https://education.github.com/git-cheat-sheet-education.pdf
 task3: find out the difference between public and private repo
 
 task4: create a private repo and try to clone, push, pull using different methods of authentication like http , ssh, GitHub cli
+
+16th oct
+terraform:
+create modules for below Resources:
+    1. 2 ubuntu ec2 instance (jenkins,ansible)
+    2. ecr ( docker and kubernetes)
+    3. kubernetes (kubernetes)
+    4. networking (vpc,security group)
+    5. cerating the permissions and maintaining the roles (kubernetes)
