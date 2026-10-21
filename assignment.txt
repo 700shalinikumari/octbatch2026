@@ -23,3 +23,9 @@ create modules for below Resources:
     3. kubernetes (kubernetes)
     4. networking (vpc,security group)
     5. cerating the permissions and maintaining the roles (kubernetes)
+
+21st oct
+jenkins:
+create a free style project:
+try to create and run a script 
+ques: Create Folder1 and create two files inside it. Then create Folder2 and copy both files from Folder1 to Folder2. Finally, log in to your EC2 instance and verify that both folders exist and contain the respective files.
