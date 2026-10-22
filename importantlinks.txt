@@ -8,3 +8,4 @@ docker desktop- https://docs.docker.com/desktop/setup/install/windows-install/
 visual studio code- https://code.visualstudio.com/download?_exp_download=fb315fc982
 aws cli- https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 dockerhub account- https://login.docker.com/
+jenkins: https://www.jenkins.io/doc/book/installing/linux/
